@@ -2,7 +2,7 @@
 <h1 align="center">ForeverCrypt</h1>
 <p align="center"><b>Quantum-resistant chat, in any app.</b></p>
 <p align="center">Encrypted Messaging · Windows 10/11 · x64 · ~2 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/ForeverCrypt/releases/latest"><b>⬇ Download ForeverCrypt 1.0.2</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/forevercrypt/">tapatch.com/tools/forevercrypt</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/ForeverCrypt/releases/latest"><b>⬇ Download ForeverCrypt 1.0.3</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/forevercrypt/">tapatch.com/tools/forevercrypt</a></p>
 
 <p align="center">
 <img src="screenshots/forevercrypt-v1.0.0-chat.png" alt="ForeverCrypt — Encrypted conversation, laid out like a chat"><br>
@@ -45,18 +45,16 @@ No accounts, no servers, no telemetry. ForeverCrypt never connects to anything �
 
 - Windows 10/11 only. Security depends on verifying your friend's key fingerprint out of band (e.g. read it aloud on a call) so a pasted key can't be an impostor's. In 1.0 the private key is stored unencrypted in your user profile — a passphrase lock for it is the top item for the next release. ForeverCrypt encrypts the message text; it can't hide from the app you paste codes into who you're talking to.
 
-## What's new in 1.0.2
+## What's new in 1.0.3
 
-- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
-- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
-- The installer comes in the same 10 languages
-- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
+- Nothing else changed
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/ForeverCrypt/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **ForeverCrypt-Setup-1.0.2.exe** from the [latest release](https://github.com/tapatchUSA/ForeverCrypt/releases/latest) or from [tapatch.com](https://tapatch.com/tools/forevercrypt/).
+1. Download **ForeverCrypt-Setup-1.0.3.exe** from the [latest release](https://github.com/tapatchUSA/ForeverCrypt/releases/latest) or from [tapatch.com](https://tapatch.com/tools/forevercrypt/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -73,17 +71,18 @@ scoop install tapatch/forevercrypt
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.0.3](https://github.com/tapatchUSA/ForeverCrypt/releases/tag/v1.0.3) | 2026-10-17 | [ForeverCrypt-Setup-1.0.3.exe](https://github.com/tapatchUSA/ForeverCrypt/releases/download/v1.0.3/ForeverCrypt-Setup-1.0.3.exe) | [2 / 71](https://www.virustotal.com/gui/file/9ce6c76f897415de7e36ed8c89782f384a576f08cb97f52da5dc627b906181b2/detection) | `9ce6c76f897415de…` |
 | [1.0.2](https://github.com/tapatchUSA/ForeverCrypt/releases/tag/v1.0.2) | 2026-10-01 | [ForeverCrypt-Setup-1.0.2.exe](https://github.com/tapatchUSA/ForeverCrypt/releases/download/v1.0.2/ForeverCrypt-Setup-1.0.2.exe) | [2 / 71](https://www.virustotal.com/gui/file/befb4a81118a9c427a1f02fc95a767db16e1f5b0ce97b683b10c148e7d62ded9/detection) | `befb4a81118a9c42…` |
 | [1.0.1](https://github.com/tapatchUSA/ForeverCrypt/releases/tag/v1.0.1) | 2026-09-30 | [ForeverCrypt-Setup-1.0.1.exe](https://github.com/tapatchUSA/ForeverCrypt/releases/download/v1.0.1/ForeverCrypt-Setup-1.0.1.exe) | [3 / 62](https://www.virustotal.com/gui/file/9a0a6a3843391be4e3cdc806f06d77deca885539febf2c62eb7a89eacdff1db0/detection) | `9a0a6a3843391be4…` |
 | [1.0.0](https://github.com/tapatchUSA/ForeverCrypt/releases/tag/v1.0.0) | 2026-09-23 | [ForeverCrypt-Setup-1.0.0.exe](https://github.com/tapatchUSA/ForeverCrypt/releases/download/v1.0.0/ForeverCrypt-Setup-1.0.0.exe) | [3 / 71](https://www.virustotal.com/gui/file/71e7c0d5b85ee70d6c517fbbce62d767fe365d3e3a5e875dbb35df8feb620beb/detection) | `71e7c0d5b85ee70d…` |
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. ForeverCrypt 1.0.2: **2 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/befb4a81118a9c427a1f02fc95a767db16e1f5b0ce97b683b10c148e7d62ded9/detection)
+Every installer is scanned on VirusTotal before release. ForeverCrypt 1.0.3: **2 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/9ce6c76f897415de7e36ed8c89782f384a576f08cb97f52da5dc627b906181b2/detection)
 
 **SHA-256**
 ```
-befb4a81118a9c427a1f02fc95a767db16e1f5b0ce97b683b10c148e7d62ded9
+9ce6c76f897415de7e36ed8c89782f384a576f08cb97f52da5dc627b906181b2
 ```
 
 ## Built with
