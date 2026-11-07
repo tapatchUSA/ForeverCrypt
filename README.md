@@ -2,7 +2,7 @@
 <h1 align="center">ForeverCrypt</h1>
 <p align="center"><b>Quantum-resistant chat, in any app.</b></p>
 <p align="center">Encrypted Messaging · Windows 10/11 · x64 · ~2 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/ForeverCrypt/releases/latest"><b>⬇ Download ForeverCrypt 1.0.4</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/forevercrypt/">tapatch.com/tools/forevercrypt</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/ForeverCrypt/releases/latest"><b>⬇ Download ForeverCrypt 1.0.5</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/forevercrypt/">tapatch.com/tools/forevercrypt</a></p>
 
 <p align="center">
 <img src="screenshots/forevercrypt-v1.0.0-chat.png" alt="ForeverCrypt — Encrypted conversation, laid out like a chat"><br>
@@ -45,18 +45,15 @@ No accounts, no servers, no telemetry. ForeverCrypt never connects to anything �
 
 - Windows 10/11 only. Security depends on verifying your friend's key fingerprint out of band (e.g. read it aloud on a call) so a pasted key can't be an impostor's. In 1.0 the private key is stored unencrypted in your user profile — a passphrase lock for it is the top item for the next release. ForeverCrypt encrypts the message text; it can't hide from the app you paste codes into who you're talking to.
 
-## What's new in 1.0.4
+## What's new in 1.0.5
 
-- The 🎨 button opens a Look window: pick a theme, make your own with Custom, and add background pictures or GIFs (tick several and they take turns)
-- Sliders set how strong the picture is and how see-through the panels are; turn it off any time
-- A key file that can't be read is kept aside (identity.key.unreadable-…) instead of being silently replaced
-- The installer's license text matches the current Terms, and THIRD-PARTY-NOTICES.txt lists the open-source parts it uses
+- The green dot when you're connected, the 1 and 2 step numbers and the arrows no longer show as empty boxes
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/ForeverCrypt/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **ForeverCrypt-Setup-1.0.4.exe** from the [latest release](https://github.com/tapatchUSA/ForeverCrypt/releases/latest) or from [tapatch.com](https://tapatch.com/tools/forevercrypt/).
+1. Download **ForeverCrypt-Setup-1.0.5.exe** from the [latest release](https://github.com/tapatchUSA/ForeverCrypt/releases/latest) or from [tapatch.com](https://tapatch.com/tools/forevercrypt/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -73,6 +70,7 @@ scoop install tapatch/forevercrypt
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.0.5](https://github.com/tapatchUSA/ForeverCrypt/releases/tag/v1.0.5) | 2026-11-07 | [ForeverCrypt-Setup-1.0.5.exe](https://github.com/tapatchUSA/ForeverCrypt/releases/download/v1.0.5/ForeverCrypt-Setup-1.0.5.exe) | [2 / 70](https://www.virustotal.com/gui/file/887f4c6df6d308270ac69fb9d7f97732586898662082b07be12ef8724ca82db6/detection) | `887f4c6df6d30827…` |
 | [1.0.4](https://github.com/tapatchUSA/ForeverCrypt/releases/tag/v1.0.4) | 2026-11-05 | [ForeverCrypt-Setup-1.0.4.exe](https://github.com/tapatchUSA/ForeverCrypt/releases/download/v1.0.4/ForeverCrypt-Setup-1.0.4.exe) | [2 / 70](https://www.virustotal.com/gui/file/650cd3f99f4ed095c35ec3a72b1cc862953bf535907683e37f79042834079c42/detection) | `650cd3f99f4ed095…` |
 | [1.0.3](https://github.com/tapatchUSA/ForeverCrypt/releases/tag/v1.0.3) | 2026-10-17 | [ForeverCrypt-Setup-1.0.3.exe](https://github.com/tapatchUSA/ForeverCrypt/releases/download/v1.0.3/ForeverCrypt-Setup-1.0.3.exe) | [1 / 71](https://www.virustotal.com/gui/file/9ce6c76f897415de7e36ed8c89782f384a576f08cb97f52da5dc627b906181b2/detection) | `9ce6c76f897415de…` |
 | [1.0.2](https://github.com/tapatchUSA/ForeverCrypt/releases/tag/v1.0.2) | 2026-10-01 | [ForeverCrypt-Setup-1.0.2.exe](https://github.com/tapatchUSA/ForeverCrypt/releases/download/v1.0.2/ForeverCrypt-Setup-1.0.2.exe) | [1 / 71](https://www.virustotal.com/gui/file/befb4a81118a9c427a1f02fc95a767db16e1f5b0ce97b683b10c148e7d62ded9/detection) | `befb4a81118a9c42…` |
@@ -81,11 +79,11 @@ scoop install tapatch/forevercrypt
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. ForeverCrypt 1.0.4: **2 / 70** engines flag it · [view report](https://www.virustotal.com/gui/file/650cd3f99f4ed095c35ec3a72b1cc862953bf535907683e37f79042834079c42/detection)
+Every installer is scanned on VirusTotal before release. ForeverCrypt 1.0.5: **2 / 70** engines flag it · [view report](https://www.virustotal.com/gui/file/887f4c6df6d308270ac69fb9d7f97732586898662082b07be12ef8724ca82db6/detection)
 
 **SHA-256**
 ```
-650cd3f99f4ed095c35ec3a72b1cc862953bf535907683e37f79042834079c42
+887f4c6df6d308270ac69fb9d7f97732586898662082b07be12ef8724ca82db6
 ```
 
 ## Built with
